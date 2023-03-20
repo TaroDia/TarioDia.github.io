@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Curriculum Vitae</title>  
+    
+</head>
+ 
+<body >
+    
+    <div class="container">
+        <header>
+          <div class="rectangulo">
+            <div class="MI_PORTAFOLIO">
+               <h1>Mi PORTAFOLIO</h1> 
+            </div>
+        
+             </header>
+    
+      <button class="tablink" onclick="openPage('sobre_mi', this, 'pink')"id="defaultOpen">Sobre Mi</button>
+      <button class="tablink" onclick="openPage('mi_educacion', this, 'pink')" >Mi Educacion</button>
+      <button class="tablink" onclick="openPage('mi_experiencia', this, 'pink')">Mi Experiencia</button>
+  <div id="sobre_mi" class="tabcontent">
+    <h3 class="nombre">Lola Sola</h2>
+      <h4 class="titulo">Diseñadora Grafica:</h2>
+       <div class="cont">
+         <img src ="mujer.avif" alt="fOTO DE MUJER";>
+         <p class="parrafo"> Soy diseñadora gráfica con más de 10 años de experiencia trabajando en agencias y empresa final. Me he especializado en desarrollo de imagen corporativa y diseño de material publicitario y de marketing online.</p>
+      </div>
+  </div>
+    
+    <div id="mi_educacion" class="tabcontent">
+      <div class="formacion">
+       <h1>FORMACIÓN</h1>
+        <h2>Titulo superior en Diseño Gráfico</h2> 
+      <label >Universidad de Madrid</label>
+
+      <h3 class="idioma">Idiomas</h3>
+
+      <h4>Ingles</h4>
+         <progress id="file" value="70" max="100"></progress>
+
+      <h4>Español</h4>
+        <progress id="file" value="100" max="100"></progress>
+
+      <h4>Frances</h4>
+        <progress id="file" value="60" max="100"></progress>
+
+      <h3 class="competencias">Competencias</h3>
+
+      <h4>CSS</h4>
+        <progress id="file" value="80" max="100"></progress>
+
+      <h4>HTML</h4>
+        <progress id="file" value="80" max="100"></progress>
+
+      </div>
+    </div>
+    
+    <div id="mi_experiencia" class="tabcontent">
+      <div class="experiencia">
+        <h2 class="empresa1">Zya Tur Viagens- Diseñadora gráfica, Industrias Internacionales Unidas</h2>
+          <label>03/2020 – presente</label>
+            <p>Branding: creación de identidad corporativa y desarrollo de manuales de marca.
+            Diseño de catálogos y piezas promocionales.
+            Diseño y adaptaciones gráficas para entornos digitales (banners, brochures, newsletters, redes sociales y web).</p>
+          
+        <h2 class="empresa2">Televale-Diseñadora gráfica, Freelance</h2>
+          <label>10/2010 -11/2015</label>
+            <p>Diseño de campañas de email marketing, banners y soporte gráfico para la web
+              Diseño de presentaciones interactivas, infografías y materiales adaptados para redes sociales
+              Diseño y maquetación de folletos, catálogos, anuncios, materiales para ferias y eventos.</p>
+      </div>
+    </div>
+
+    <footer id="contacto">
+      <div class="footer-content">
+        <div class="contact-us">
+           <h2 class="brand">Lola Sola</h2>
+           <p>Soy experta en la creacion de tu sueños</p>
+        </div> 
+     <div class="social-media">
+            <a href="https://www.snapchat.com" class="social-media-icon">
+                <i class='bx bxl-snapchat'></i>
+            </a>
+            <a href="https://www.facebook.com/" class="social-media-icon">
+                <i class='bx bxl-facebook-square'></i>
+            </a>
+            <a href="https://www.instagram.com/" class="social-media-icon">
+                <i class='bx bxl-instagram' ></i>
+            </a>
+          </div>
+       </div>
+       <div class="line"></div>
+    </footer>
+
+    <script src="javascrip.js"></script>   
+</body>
+
+
+</html>
